@@ -5,9 +5,6 @@ const ulListaAmigos= document.getElementById("listaAmigos");
 const ulResultado=document.getElementById("resultado");
 function agregarAmigo(){
     if(!inputAmigo.value){
-        alert("input lleno");
-
-    }else{
         alert("input sin informacion");
     }
     listaAmigos.push(inputAmigo.value);
